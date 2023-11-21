@@ -1,0 +1,147 @@
+.deletar{
+    background-color:red !important;
+}
+
+body {
+    background-color: #1a1a1a; 
+    color: white; 
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #4CAF50; 
+}
+
+a {
+    color: #4CAF50; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #333333;
+}
+
+th {
+    background-color: #2a2a2a; 
+    padding: 10px;
+}
+
+td {
+    padding: 8px;
+    text-align: center;
+}
+
+
+tbody tr:nth-child(odd) {
+    background-color: #242424;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #1e1e1e;
+}
+
+
+td a {
+    padding: 3px 6px;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    margin-right: 4px;
+}
+
+td a:hover {
+    background-color: #3e8e41;
+}
+
+/* EDITAR */
+form {
+    background-color: #2a2a2a; 
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 500px;
+    margin: 50px auto;
+    color: white; 
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+input[type="text"],
+textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333333; 
+    color: white; 
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    outline: none;
+    border: 1px solid #4CAF50; 
+}
+
+/* Estilos do Botão */
+input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50; 
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #3e8e41; 
+}
+
+label {
+    font-size: 1.1em;
+}
+
+.pagination {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.pagination a {
+    color: white; 
+    margin: 0 5px;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    background-color: #333; 
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.pagination a:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.pagination strong {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    background-color: #4CAF50; 
+    color: white;
+}
+
